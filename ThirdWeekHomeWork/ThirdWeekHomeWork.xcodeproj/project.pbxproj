@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		56655D17292937620004FCC7 /* delegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56655D16292937620004FCC7 /* delegateProtocol.swift */; };
-		56655D192929659B0004FCC7 /* exampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56655D182929659A0004FCC7 /* exampleViewController.swift */; };
 		56C3B7A02927C9B400925DD2 /* companyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3B79F2927C9B400925DD2 /* companyModal.swift */; };
 		56C3B7A32927CA4D00925DD2 /* employableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3B7A22927CA4D00925DD2 /* employableProtocol.swift */; };
 		56C3B7A52927CA8800925DD2 /* valuesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3B7A42927CA8800925DD2 /* valuesProtocol.swift */; };
@@ -28,7 +27,6 @@
 
 /* Begin PBXFileReference section */
 		56655D16292937620004FCC7 /* delegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delegateProtocol.swift; sourceTree = "<group>"; };
-		56655D182929659A0004FCC7 /* exampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleViewController.swift; sourceTree = "<group>"; };
 		56C3B79F2927C9B400925DD2 /* companyModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = companyModal.swift; sourceTree = "<group>"; };
 		56C3B7A22927CA4D00925DD2 /* employableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employableProtocol.swift; sourceTree = "<group>"; };
 		56C3B7A42927CA8800925DD2 /* valuesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valuesProtocol.swift; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				56CC642F2927839B0090940F /* Info.plist */,
 				56CC64352927A1E90090940F /* NewEmployeViewControler.swift */,
 				56CC64372927A6560090940F /* EmployeListViewControler.swift */,
-				56655D182929659A0004FCC7 /* exampleViewController.swift */,
 			);
 			path = ThirdWeekHomeWork;
 			sourceTree = "<group>";
@@ -209,7 +206,6 @@
 				56C3B7A32927CA4D00925DD2 /* employableProtocol.swift in Sources */,
 				56C3B7A82927CBEF00925DD2 /* userType.swift in Sources */,
 				56C3B7A52927CA8800925DD2 /* valuesProtocol.swift in Sources */,
-				56655D192929659B0004FCC7 /* exampleViewController.swift in Sources */,
 				56CC64362927A1E90090940F /* NewEmployeViewControler.swift in Sources */,
 				56CC6426292783990090940F /* ViewController.swift in Sources */,
 				56CC64382927A6570090940F /* EmployeListViewControler.swift in Sources */,

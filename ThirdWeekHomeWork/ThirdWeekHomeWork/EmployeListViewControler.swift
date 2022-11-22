@@ -19,6 +19,7 @@ class EmployeListViewControler: UIViewController {
         employeTableView.delegate = self
         employeTableView.dataSource = self
         employeTableView.register(UINib(nibName: "EmployeTableViewCell", bundle: nil), forCellReuseIdentifier: "EmployeCell")
+
         
         let search = UISearchController(searchResultsController: nil)
         search.searchResultsUpdater = self
