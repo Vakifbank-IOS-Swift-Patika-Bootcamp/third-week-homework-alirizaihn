@@ -13,6 +13,11 @@
 		564D94F3292D3FC000C90383 /* AnimalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 564D94F1292D3FC000C90383 /* AnimalTableViewCell.xib */; };
 		564D94F6292D3FD600C90383 /* ZookeeperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564D94F4292D3FD600C90383 /* ZookeeperTableViewCell.swift */; };
 		564D94F7292D3FD600C90383 /* ZookeeperTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 564D94F5292D3FD600C90383 /* ZookeeperTableViewCell.xib */; };
+		564D94FE292DE22E00C90383 /* dove.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 564D94F9292DE22D00C90383 /* dove.mp3 */; };
+		564D94FF292DE22E00C90383 /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 564D94FA292DE22D00C90383 /* cat.mp3 */; };
+		564D9500292DE22E00C90383 /* lion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 564D94FB292DE22D00C90383 /* lion.mp3 */; };
+		564D9501292DE22E00C90383 /* dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 564D94FC292DE22D00C90383 /* dog.mp3 */; };
+		564D9502292DE22E00C90383 /* elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 564D94FD292DE22D00C90383 /* elephant.mp3 */; };
 		56FEC636292BB21C008EFD21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEC635292BB21C008EFD21 /* AppDelegate.swift */; };
 		56FEC638292BB21C008EFD21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEC637292BB21C008EFD21 /* SceneDelegate.swift */; };
 		56FEC63A292BB21C008EFD21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEC639292BB21C008EFD21 /* ViewController.swift */; };
@@ -35,6 +40,11 @@
 		564D94F1292D3FC000C90383 /* AnimalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalTableViewCell.xib; sourceTree = "<group>"; };
 		564D94F4292D3FD600C90383 /* ZookeeperTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZookeeperTableViewCell.swift; sourceTree = "<group>"; };
 		564D94F5292D3FD600C90383 /* ZookeeperTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZookeeperTableViewCell.xib; sourceTree = "<group>"; };
+		564D94F9292DE22D00C90383 /* dove.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dove.mp3; sourceTree = "<group>"; };
+		564D94FA292DE22D00C90383 /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		564D94FB292DE22D00C90383 /* lion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lion.mp3; sourceTree = "<group>"; };
+		564D94FC292DE22D00C90383 /* dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog.mp3; sourceTree = "<group>"; };
+		564D94FD292DE22D00C90383 /* elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant.mp3; sourceTree = "<group>"; };
 		56FEC632292BB21C008EFD21 /* ThirdWeekSecondHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdWeekSecondHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FEC635292BB21C008EFD21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56FEC637292BB21C008EFD21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +73,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		564D94F8292DE1ED00C90383 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				564D94FA292DE22D00C90383 /* cat.mp3 */,
+				564D94FC292DE22D00C90383 /* dog.mp3 */,
+				564D94F9292DE22D00C90383 /* dove.mp3 */,
+				564D94FD292DE22D00C90383 /* elephant.mp3 */,
+				564D94FB292DE22D00C90383 /* lion.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		56FEC629292BB21C008EFD21 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +104,7 @@
 		56FEC634292BB21C008EFD21 /* ThirdWeekSecondHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				564D94F8292DE1ED00C90383 /* Sounds */,
 				56FEC659292C06BD008EFD21 /* Controller */,
 				56FEC654292BE1A4008EFD21 /* Enums */,
 				56FEC64B292BBA5B008EFD21 /* Views */,
@@ -204,9 +227,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564D9500292DE22E00C90383 /* lion.mp3 in Resources */,
+				564D9502292DE22E00C90383 /* elephant.mp3 in Resources */,
 				56FEC642292BB220008EFD21 /* LaunchScreen.storyboard in Resources */,
 				564D94F7292D3FD600C90383 /* ZookeeperTableViewCell.xib in Resources */,
+				564D9501292DE22E00C90383 /* dog.mp3 in Resources */,
+				564D94FE292DE22E00C90383 /* dove.mp3 in Resources */,
 				564D94F3292D3FC000C90383 /* AnimalTableViewCell.xib in Resources */,
+				564D94FF292DE22E00C90383 /* cat.mp3 in Resources */,
 				56FEC63F292BB220008EFD21 /* Assets.xcassets in Resources */,
 				56FEC63D292BB21C008EFD21 /* Main.storyboard in Resources */,
 			);

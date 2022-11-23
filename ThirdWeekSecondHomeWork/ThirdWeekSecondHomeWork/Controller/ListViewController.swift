@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import AVFoundation
 class ListViewController: UIViewController  {
     
     @IBOutlet weak var titleLabel: UILabel!
@@ -71,7 +71,13 @@ extension ListViewController : UITableViewDelegate, UITableViewDataSource {
             return cell
         }
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(animals?[indexPath.row])
+        if var animal = animals?[indexPath.row] {
+            animal.getSound()
+        }
+       
+    }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         UITableView.automaticDimension
     }

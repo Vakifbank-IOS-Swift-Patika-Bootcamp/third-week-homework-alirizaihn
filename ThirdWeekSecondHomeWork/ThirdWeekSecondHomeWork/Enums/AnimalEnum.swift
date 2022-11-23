@@ -11,16 +11,16 @@ enum AnimalType : String, CaseIterable {
     case cat
     case dog
     case bird
-    case leon
+    case lion
     case elephant
     
     var sound: String {
         switch self {
-        case .cat: return "meow"
-        case .dog: return "haw"
-        case .bird:return "cikcik"
-        case .leon: return "hırg"
-        case .elephant:return "yuhasd"
+        case .cat: return "cat"
+        case .dog: return "dog"
+        case .bird:return "dove"
+        case .lion: return "lion"
+        case .elephant:return "elephant"
         }
     }
 }

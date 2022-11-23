@@ -25,6 +25,7 @@ final class ViewController: UIViewController {
         waterStockLabel.text = "Water Stock: " +  String(ankaZoo.waterLimit)
         dailyWaterReqLabel.text = "Daily Water Requirement: " + String(ankaZoo.dailyWaterRequirement)
         totalSalaryLabel.text = "Total Salary: " + String(ankaZoo.totalSalary)
+        print("slemasda")
 
     }
 

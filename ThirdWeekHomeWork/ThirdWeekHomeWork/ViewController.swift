@@ -75,8 +75,7 @@ class ViewController: UIViewController {
         newEmployeVC.delegate = self
         present(newEmployeVC, animated: true)
     }
-    
-    
+
     @IBAction func listEmployeePressed(_ sender: Any) {
         performSegue(withIdentifier: "pushWithSegue", sender: self)
     }

@@ -16,6 +16,7 @@ protocol AnimalProtocol {
     init()
     mutating func drinkWater()
     mutating func setZooKeeper(zooKeeper: ZooKeeper)
+    func getSound()
 }
 extension AnimalProtocol {
     init(_ name: String, _ sound: String, _ waterRequirement: Int, _ animalType: AnimalType) {
