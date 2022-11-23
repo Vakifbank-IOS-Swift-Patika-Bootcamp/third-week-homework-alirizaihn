@@ -72,11 +72,12 @@ extension ListViewController : UITableViewDelegate, UITableViewDataSource {
         }
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(animals?[indexPath.row])
-        if var animal = animals?[indexPath.row] {
-            animal.getSound()
+        
+        if selectedListSegmentControl.selectedSegmentIndex == 0 {
+            if var animal = animals?[indexPath.row] {
+                animal.getSound()
+            }
         }
-       
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         UITableView.automaticDimension
